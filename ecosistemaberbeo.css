@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+#titulo {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #388E3C;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+section {
+    padding: 15px;
+    margin: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #4CAF50;
+}
+
+.contenido {
+    display: flex; /* Coloca el texto y la imagen uno al lado del otro */
+}
+
+.texto {
+    flex: 1;
+    margin-right: 20px; /* Espacio entre el texto y la imagen */
+}
+
+.imagen {
+    flex-shrink: 0; /* Evita que la imagen se encoja */
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 5px; /* Bordes redondeados */
+}
+#informacion {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 15px;
+}
+
+.imagenes-adicionales {
+    display: flex;
+    justify-content: space-between; /* Espacio entre las imágenes */
+    margin-top: 15px; /* Espacio arriba de las imágenes adicionales */
+}
+
+.imagen-adicional {
+    flex: 1; /* Hace que todas las imágenes tengan el mismo ancho */
+    margin: 0 10px; /* Espacio horizontal entre las imágenes */
+}
+
+.imagen-adicional img {
+    width: 100%; /* Hace que la imagen llene todo el contenedor */
+    height: 150px; /* Altura fija para todas las imágenes */
+    object-fit: cover; /* Mantiene la proporción y recorta si es necesario */
+    border-radius: 5px; /* Bordes redondeados */
+}
+#flora-fauna {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 15px;
+}
+
+.flora, .fauna {
+    margin-bottom: 20px; /* Espacio entre secciones de flora y fauna */
+}
+
+h3 {
+    color: #4CAF50; /* Color para subtítulos */
+}
+
+.imagen-flora, .imagen-fauna {
+    margin-top: 10px; /* Espacio encima de las imágenes */
+}
+
+.imagen-flora img, .imagen-fauna img {
+    max-width: 100%; /* Asegura que la imagen no sobrepase el contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+#flora-fauna {
+    padding: 20px;
+}
+
+.flora, .fauna {
+    margin-bottom: 30px; /* Espacio entre flora y fauna */
+}
+
+.imagenes-flora, .imagenes-fauna {
+    display: flex;
+    justify-content: space-between; /* Espacio uniforme entre las imágenes */
+    margin-top: 15px; /* Espacio entre la lista y las imágenes */
+}
+
+.imagen-flora, .imagen-fauna {
+    flex: 1; /* Las imágenes ocupan el mismo espacio */
+    margin-right: 10px; /* Espacio entre imágenes */
+}
+
+.imagen-flora:last-child, .imagen-fauna:last-child {
+    margin-right: 0; /* Sin margen derecho en la última imagen */
+}
+
+.imagen-flora img, .imagen-fauna img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Bordes redondeados */
+}
